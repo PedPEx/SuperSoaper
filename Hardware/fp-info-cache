@@ -1,4 +1,4 @@
-22324620998226396
+22345062650815873
 AD737JRZ
 SOIC127P600X175-8N
 R-8 (SOIC)
@@ -91889,7 +91889,49 @@ WAGO_831-3602
 6
 6
 easyeda2kicad
+CONN-TH_3P-P2.50_A2501WV2-3P
+
+
+0
+3
+3
+easyeda2kicad
+CONN-TH_B4B-XH-A-LF-SN
+
+
+0
+4
+4
+easyeda2kicad
+DC-IN-TH_DC-005-5A-2.0-SMT
+
+
+0
+6
+3
+easyeda2kicad
 FUSE-TH_L24.4-W9.4-P22.60
+
+
+0
+2
+2
+easyeda2kicad
+HDR-TH_3P-P2.54-H-F-W10.0-N
+
+
+0
+3
+3
+easyeda2kicad
+HDR-TH_3P-P2.54-V-F
+
+
+0
+3
+3
+easyeda2kicad
+IND-SMD_L4.5-W4.0_SCD0403T
 
 
 0
@@ -91902,6 +91944,13 @@ LQFN-56_L7.0-W7.0-P0.4-EP
 0
 57
 57
+easyeda2kicad
+LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL
+
+
+0
+48
+48
 easyeda2kicad
 QFN-28_L5.0-W5.0-P0.50-BL-EP
 
@@ -91924,6 +91973,20 @@ SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL
 8
 8
 easyeda2kicad
+SOP-16_L10.0-W3.9-P1.27-LS6.0-BL
+
+
+0
+16
+16
+easyeda2kicad
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+
+
+0
+6
+6
+easyeda2kicad
 SOT-583-8_L2.1-W1.2-P0.50-LS1.6-BR
 
 
@@ -91937,6 +92000,20 @@ SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
 0
 4
 4
+easyeda2kicad
+SW-SMD_8P-L6.7-W5.4-P1.27-LS8.5
+
+
+0
+8
+8
+easyeda2kicad
+SW-SMD_8P-L11.1-W6.2-P2.54-LS9.8
+
+
+0
+8
+8
 easyeda2kicad
 SW-SMD_8P-P1.27-L7.8-W5.4
 
@@ -91972,3 +92049,10 @@ USB-C-SMD_TYPE-C-USB-18
 0
 28
 25
+easyeda2kicad
+USB-C-TH_TYPE-C-USB-14P
+
+
+0
+18
+15
