@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "name": "STM32 arm-none-eabi-gcc",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Core/Inc",
+                "${workspaceFolder}/Drivers/STM32C0xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32C0xx/Include",
+                "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc/include",
+                "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc/arm-none-eabi/include",
+                "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc/arm-none-eabi/include/c++/13.2.1",
+                "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc/arm-none-eabi/include/machine",
+                "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc/arm-none-eabi/include/newlib-nano",
+                "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc/arm-none-eabi/include/sys",
+                "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc/lib/gcc/arm-none-eabi/13.2.1/include",
+                "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc/lib/gcc/arm-none-eabi/13.2.1/include-fixed"
+            ],
+            "defines": [
+                "STM32C011xx", //see in C_DEFS in makefile
+                "DEBUG",
+                "USE_HAL_DRIVER",
+                "USE_FULL_LL_DRIVER",
+                "USE_FULL_ASSERT"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "windows-gcc-arm",
+            "browse":
+            {
+                "path":
+                [
+                    "${workspaceFolder}/**",
+                    "${workspaceFolder}/Core/Inc",
+                    "${workspaceFolder}/Drivers/STM32C0xx_HAL_Driver/Inc",
+                    "${workspaceFolder}/Drivers/CMSIS/Include",
+                    "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32C0xx/Include",
+                    "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc/arm-none-eabi/include",
+                    "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc/arm-none-eabi/include/c++/13.2.1",
+                    "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc/lib/gcc/arm-none-eabi/13.2.1/include",
+                    "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc/lib/gcc/arm-none-eabi/13.2.1/include-fixed"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db"
+            }
+        }
+    ],
+    "version": 4
+}

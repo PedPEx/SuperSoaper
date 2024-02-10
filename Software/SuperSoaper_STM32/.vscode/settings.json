@@ -1,0 +1,7 @@
+{
+    "workspaceKeybindings.firmwareTasks.enabled": true,
+    "files.associations": {
+        "main.h": "c"
+    },
+    "cortex-debug.armToolchainPath": "C:/01_Data/build-tools/xpack-arm-none-eabi-gcc-13.2.1-1.1/arm-none-eabi/bin"
+}
